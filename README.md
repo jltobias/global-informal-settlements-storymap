@@ -2,10 +2,12 @@
 
 ## Live JupyterGIS story-map example
 
+> **▶ [Launch the active Ekurhuleni Informal Settlements Story Map](https://jltobias.github.io/global-informal-settlements-storymap/lab/index.html?path=showcase/Ekurhuleni_Informal_Settlements_Story_Map.jGIS&mode=single-document)**
+
 **Start here:** `Informal_Settlements_Story_Map.jGIS` is a ready-to-present guided JupyterGIS story using **live City of Ekurhuleni informal-settlement polygons** rather than the synthetic smoke-test data.
 
+- Active GitHub Pages story: https://jltobias.github.io/global-informal-settlements-storymap/lab/index.html?path=showcase/Ekurhuleni_Informal_Settlements_Story_Map.jGIS&mode=single-document
 - Notebook.link launch: https://notebook.link/@jltobias/global-informal-settlements-storymap
-- GitHub Pages direct story URL (after Pages deploys): https://jltobias.github.io/global-informal-settlements-storymap/lab/index.html?path=showcase/Ekurhuleni_Informal_Settlements_Story_Map.jGIS&mode=single-document
 - Story source inside the Pages build: `content/showcase/Ekurhuleni_Informal_Settlements_Story_Map.jGIS`
 
 The showcase follows the same basic model as QuantStack's earthquakes story map: a `.jGIS` document contains a live geospatial layer plus guided `StorySegmentLayer` chapters. Switch the Story panel to Preview/Presentation mode and use the Identify tool to inspect municipal settlement attributes.
