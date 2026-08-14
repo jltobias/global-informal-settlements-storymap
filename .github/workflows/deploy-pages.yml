@@ -1,0 +1,52 @@
+name: Build and deploy JupyterGIS storymap
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up micromamba build environment
+        uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: .github/build-environment.yml
+          cache-environment: true
+      - name: Refresh country-level SDG 11.1.1 context
+        shell: bash -el {0}
+        run: python scripts/fetch_wdi.py --output content/data/country_slum_context.csv --offline-ok
+      - name: Build normalized country catalog and JupyterGIS storymaps
+        shell: bash -el {0}
+        run: |
+          python scripts/build_catalog.py
+          python scripts/generate_jgis.py
+          python scripts/validate.py
+      - name: Build JupyterLite
+        shell: bash -el {0}
+        run: jupyter lite build --contents content --output-dir dist --XeusAddon.mount_jupyterlite_content=True
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
