@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v6
       - name: Set up micromamba build environment
@@ -27,13 +28,20 @@ jobs:
       - name: Refresh country-level SDG 11.1.1 context
         shell: bash -el {0}
         run: python scripts/fetch_wdi.py --output content/data/country_slum_context.csv --offline-ok
-      - name: Build normalized country catalog and JupyterGIS storymaps
+      - name: Build informal-settlement catalog and JupyterGIS stories
         shell: bash -el {0}
         run: |
           python scripts/build_catalog.py
           python scripts/generate_jgis.py
-          python scripts/validate.py
-      - name: Build JupyterLite
+      - name: Build GHSL global human-settlements tours
+        shell: bash -el {0}
+        run: |
+          python scripts/fetch_ghsl_ucdb.py
+          python scripts/generate_human_settlement_tour.py
+      - name: Validate repository outputs
+        shell: bash -el {0}
+        run: python scripts/validate.py
+      - name: Build JupyterLite with JupyterGIS and AI chat
         shell: bash -el {0}
         run: jupyter lite build --contents content --output-dir dist --XeusAddon.mount_jupyterlite_content=True
       - uses: actions/configure-pages@v5

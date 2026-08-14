@@ -9,3 +9,5 @@ dependencies:
   - jupyterlite-xeus >=4.3
   - notebook >=7.5
   - specta
+  - pip:
+      - jupyterlite-ai
