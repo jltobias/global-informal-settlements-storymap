@@ -2,6 +2,18 @@
   "version": "1.0",
   "sources": [
     {
+      "id": "ekurhuleni_municipal_informal_settlements",
+      "provider": "City of Ekurhuleni Metropolitan Municipality",
+      "title": "Informal Settlements",
+      "scope": "Ekurhuleni, Gauteng, South Africa",
+      "geometry": "polygon",
+      "url": "https://gis.ekurhuleni.gov.za/arcgis/rest/services/Ekurhuleni/Ekurhuleni_Propety_Data_Map/MapServer/7",
+      "geojson_query": "https://gis.ekurhuleni.gov.za/arcgis/rest/services/Ekurhuleni/Ekurhuleni_Propety_Data_Map/MapServer/7/query?where=1%3D1&outFields=INFML_SETTLEM_NAME%2CHH_2016%2CHECTARES%2CWARD%2CCLASSIFICATION%2CWATER%2CSANITATION%2CLIGHTING%2CNUSP_CATEGORY&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "No explicit license statement surfaced in the ArcGIS REST layer metadata; verify municipal reuse terms before redistributing a frozen copy.",
+      "automated": true,
+      "notes": "Live showcase source. The service publishes a polygon Feature Layer named Informal Settlements and advertises GeoJSON queries. The repository story reads it remotely rather than redistributing a snapshot."
+    },
+    {
       "id": "world_bank_wdi_slum_share",
       "provider": "World Bank / UN-Habitat",
       "title": "Population living in slums (% of urban population)",

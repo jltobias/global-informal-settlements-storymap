@@ -1,36 +1,29 @@
-# Live JupyterGIS story-map demo
+# Live story-map demo
 
-The repository now includes a ready-to-open story map at the repository root:
+The repository ships a real-data guided JupyterGIS document at:
 
-`Informal_Settlements_Story_Map.jGIS`
+`content/showcase/Ekurhuleni_Informal_Settlements_Story_Map.jGIS`
 
-It uses a live public **City of Ekurhuleni Metropolitan Municipality** ArcGIS polygon layer titled **Informal Settlements**. The geometry is fetched when the JupyterGIS document opens, so the example is not based on the repository's synthetic smoke-test polygons.
+A root-level copy, `Informal_Settlements_Story_Map.jGIS`, makes the example easy to locate when the whole GitHub repository is launched with Notebook.link.
 
-## Open it with Notebook.link
+## Launch
 
-Use:
+Notebook.link:
 
 `https://notebook.link/@jltobias/global-informal-settlements-storymap`
 
-Then open `Informal_Settlements_Story_Map.jGIS` from the file browser. When the repository's GitHub Pages/JupyterLite deployment is active, the same file is bundled into the browser environment.
+GitHub Pages, after deployment:
 
-## Story chapters
+`https://jltobias.github.io/global-informal-settlements-storymap/lab/index.html?path=showcase/Ekurhuleni_Informal_Settlements_Story_Map.jGIS&mode=single-document`
 
-The guided story contains six chapters:
+JupyterLite supports the `?path=` URL parameter for opening a bundled file directly.
 
-1. Metro-wide overview
-2. Northern Ekurhuleni — Thembisa area
-3. Eastern Ekurhuleni — Benoni area
-4. Western Ekurhuleni — Germiston area
-5. Southern Ekurhuleni — Katlehong area
-6. From one city to a global atlas
+## Data source
 
-## Explore the data
+The showcase points directly to the City of Ekurhuleni Metropolitan Municipality ArcGIS REST layer named **Informal Settlements** (MapServer layer 7). The layer is polygon geometry and advertises GeoJSON query support. Available attributes include `INFML_SETTLEM_NAME`, `HH_2016`, `HECTARES`, `WARD`, `CLASSIFICATION`, `WATER`, `SANITATION`, `LIGHTING`, and `NUSP_CATEGORY`.
 
-Use JupyterGIS's Identify tool and click an orange polygon. The municipal service exposes fields including settlement name, households (2016 field), hectares, ward, classification, water, sanitation, lighting, and NUSP category when populated.
+The map deliberately reads the municipal polygons live. If the upstream service is temporarily unavailable, the story layer will not render. This makes data currency and provenance explicit rather than silently freezing a copy.
 
-## Provenance
+## Presentation
 
-Source: City of Ekurhuleni Metropolitan Municipality ArcGIS REST service, `Ekurhuleni_Propety_Data_Map/MapServer/7`, layer name `Informal Settlements`.
-
-The project treats these as source-defined administrative polygons. Informal-settlement status and boundaries can change, so downstream use should preserve source, date, license/terms, and quality notes rather than treating a geometry as timeless ground truth.
+Open the `.jGIS` file, switch the Story panel to Preview mode or open it with Specta presentation mode, and step through the guided chapters. Use the Identify tool on an orange polygon to inspect source attributes.

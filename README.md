@@ -1,5 +1,15 @@
 # Global Informal Settlements Storymap
 
+## Live JupyterGIS story-map example
+
+**Start here:** `Informal_Settlements_Story_Map.jGIS` is a ready-to-present guided JupyterGIS story using **live City of Ekurhuleni informal-settlement polygons** rather than the synthetic smoke-test data.
+
+- Notebook.link launch: https://notebook.link/@jltobias/global-informal-settlements-storymap
+- GitHub Pages direct story URL (after Pages deploys): https://jltobias.github.io/global-informal-settlements-storymap/lab/index.html?path=showcase/Ekurhuleni_Informal_Settlements_Story_Map.jGIS&mode=single-document
+- Story source inside the Pages build: `content/showcase/Ekurhuleni_Informal_Settlements_Story_Map.jGIS`
+
+The showcase follows the same basic model as QuantStack's earthquakes story map: a `.jGIS` document contains a live geospatial layer plus guided `StorySegmentLayer` chapters. Switch the Story panel to Preview/Presentation mode and use the Identify tool to inspect municipal settlement attributes.
+
 A reproducible starter repository for building a **country-by-country global storymap of informal settlements** with **JupyterGIS**, **JupyterLite**, and GitHub Pages.
 
 The repository deliberately separates three kinds of evidence:
@@ -38,7 +48,7 @@ sources/source_registry.json  source catalog and adapter hints
 
 ## Fast start
 
-1. Open `content/notebooks/00_Welcome.ipynb` in JupyterLite.
+1. Open `content/showcase/Ekurhuleni_Informal_Settlements_Story_Map.jGIS` for the live story-map demonstration, then `content/notebooks/00_Welcome.ipynb` for the build workflow.
 2. Add source GeoJSON files to `data/raw/` and a mapping JSON describing property names.
 3. Run `python scripts/normalize_geojson.py ...` locally, or use notebook `02_Normalize_Settlements.ipynb`.
 4. Run `python scripts/generate_jgis.py` to rebuild country storymaps.
