@@ -1,0 +1,251 @@
+iso3,iso2,country_name,settlement_feature_count,wdi_year,wdi_slum_share_percent,wdi_status
+XDM,XD,Demonstration Country (synthetic),2,,,synthetic_demo
+AFG,AF,Afghanistan,0,,,not_fetched
+ALB,AL,Albania,0,,,not_fetched
+DZA,DZ,Algeria,0,,,not_fetched
+ASM,AS,American Samoa,0,,,not_fetched
+AND,AD,Andorra,0,,,not_fetched
+AGO,AO,Angola,0,,,not_fetched
+AIA,AI,Anguilla,0,,,not_fetched
+ATA,AQ,Antarctica,0,,,not_fetched
+ATG,AG,Antigua and Barbuda,0,,,not_fetched
+ARG,AR,Argentina,0,,,not_fetched
+ARM,AM,Armenia,0,,,not_fetched
+ABW,AW,Aruba,0,,,not_fetched
+AUS,AU,Australia,0,,,not_fetched
+AUT,AT,Austria,0,,,not_fetched
+AZE,AZ,Azerbaijan,0,,,not_fetched
+BHS,BS,Bahamas,0,,,not_fetched
+BHR,BH,Bahrain,0,,,not_fetched
+BGD,BD,Bangladesh,0,,,not_fetched
+BRB,BB,Barbados,0,,,not_fetched
+BLR,BY,Belarus,0,,,not_fetched
+BEL,BE,Belgium,0,,,not_fetched
+BLZ,BZ,Belize,0,,,not_fetched
+BEN,BJ,Benin,0,,,not_fetched
+BMU,BM,Bermuda,0,,,not_fetched
+BTN,BT,Bhutan,0,,,not_fetched
+BOL,BO,"Bolivia, Plurinational State of",0,,,not_fetched
+BES,BQ,"Bonaire, Sint Eustatius and Saba",0,,,not_fetched
+BIH,BA,Bosnia and Herzegovina,0,,,not_fetched
+BWA,BW,Botswana,0,,,not_fetched
+BVT,BV,Bouvet Island,0,,,not_fetched
+BRA,BR,Brazil,0,,,not_fetched
+IOT,IO,British Indian Ocean Territory,0,,,not_fetched
+BRN,BN,Brunei Darussalam,0,,,not_fetched
+BGR,BG,Bulgaria,0,,,not_fetched
+BFA,BF,Burkina Faso,0,,,not_fetched
+BDI,BI,Burundi,0,,,not_fetched
+CPV,CV,Cabo Verde,0,,,not_fetched
+KHM,KH,Cambodia,0,,,not_fetched
+CMR,CM,Cameroon,0,,,not_fetched
+CAN,CA,Canada,0,,,not_fetched
+CYM,KY,Cayman Islands,0,,,not_fetched
+CAF,CF,Central African Republic,0,,,not_fetched
+TCD,TD,Chad,0,,,not_fetched
+CHL,CL,Chile,0,,,not_fetched
+CHN,CN,China,0,,,not_fetched
+CXR,CX,Christmas Island,0,,,not_fetched
+CCK,CC,Cocos (Keeling) Islands,0,,,not_fetched
+COL,CO,Colombia,0,,,not_fetched
+COM,KM,Comoros,0,,,not_fetched
+COG,CG,Congo,0,,,not_fetched
+COD,CD,"Congo, The Democratic Republic of the",0,,,not_fetched
+COK,CK,Cook Islands,0,,,not_fetched
+CRI,CR,Costa Rica,0,,,not_fetched
+HRV,HR,Croatia,0,,,not_fetched
+CUB,CU,Cuba,0,,,not_fetched
+CUW,CW,Curaçao,0,,,not_fetched
+CYP,CY,Cyprus,0,,,not_fetched
+CZE,CZ,Czechia,0,,,not_fetched
+CIV,CI,Côte d'Ivoire,0,,,not_fetched
+DNK,DK,Denmark,0,,,not_fetched
+DJI,DJ,Djibouti,0,,,not_fetched
+DMA,DM,Dominica,0,,,not_fetched
+DOM,DO,Dominican Republic,0,,,not_fetched
+ECU,EC,Ecuador,0,,,not_fetched
+EGY,EG,Egypt,0,,,not_fetched
+SLV,SV,El Salvador,0,,,not_fetched
+GNQ,GQ,Equatorial Guinea,0,,,not_fetched
+ERI,ER,Eritrea,0,,,not_fetched
+EST,EE,Estonia,0,,,not_fetched
+SWZ,SZ,Eswatini,0,,,not_fetched
+ETH,ET,Ethiopia,0,,,not_fetched
+FLK,FK,Falkland Islands (Malvinas),0,,,not_fetched
+FRO,FO,Faroe Islands,0,,,not_fetched
+FJI,FJ,Fiji,0,,,not_fetched
+FIN,FI,Finland,0,,,not_fetched
+FRA,FR,France,0,,,not_fetched
+GUF,GF,French Guiana,0,,,not_fetched
+PYF,PF,French Polynesia,0,,,not_fetched
+ATF,TF,French Southern Territories,0,,,not_fetched
+GAB,GA,Gabon,0,,,not_fetched
+GMB,GM,Gambia,0,,,not_fetched
+GEO,GE,Georgia,0,,,not_fetched
+DEU,DE,Germany,0,,,not_fetched
+GHA,GH,Ghana,0,,,not_fetched
+GIB,GI,Gibraltar,0,,,not_fetched
+GRC,GR,Greece,0,,,not_fetched
+GRL,GL,Greenland,0,,,not_fetched
+GRD,GD,Grenada,0,,,not_fetched
+GLP,GP,Guadeloupe,0,,,not_fetched
+GUM,GU,Guam,0,,,not_fetched
+GTM,GT,Guatemala,0,,,not_fetched
+GGY,GG,Guernsey,0,,,not_fetched
+GIN,GN,Guinea,0,,,not_fetched
+GNB,GW,Guinea-Bissau,0,,,not_fetched
+GUY,GY,Guyana,0,,,not_fetched
+HTI,HT,Haiti,0,,,not_fetched
+HMD,HM,Heard Island and McDonald Islands,0,,,not_fetched
+VAT,VA,Holy See (Vatican City State),0,,,not_fetched
+HND,HN,Honduras,0,,,not_fetched
+HKG,HK,Hong Kong,0,,,not_fetched
+HUN,HU,Hungary,0,,,not_fetched
+ISL,IS,Iceland,0,,,not_fetched
+IND,IN,India,0,,,not_fetched
+IDN,ID,Indonesia,0,,,not_fetched
+IRN,IR,"Iran, Islamic Republic of",0,,,not_fetched
+IRQ,IQ,Iraq,0,,,not_fetched
+IRL,IE,Ireland,0,,,not_fetched
+IMN,IM,Isle of Man,0,,,not_fetched
+ISR,IL,Israel,0,,,not_fetched
+ITA,IT,Italy,0,,,not_fetched
+JAM,JM,Jamaica,0,,,not_fetched
+JPN,JP,Japan,0,,,not_fetched
+JEY,JE,Jersey,0,,,not_fetched
+JOR,JO,Jordan,0,,,not_fetched
+KAZ,KZ,Kazakhstan,0,,,not_fetched
+KEN,KE,Kenya,0,,,not_fetched
+KIR,KI,Kiribati,0,,,not_fetched
+PRK,KP,"Korea, Democratic People's Republic of",0,,,not_fetched
+KOR,KR,"Korea, Republic of",0,,,not_fetched
+KWT,KW,Kuwait,0,,,not_fetched
+KGZ,KG,Kyrgyzstan,0,,,not_fetched
+LAO,LA,Lao People's Democratic Republic,0,,,not_fetched
+LVA,LV,Latvia,0,,,not_fetched
+LBN,LB,Lebanon,0,,,not_fetched
+LSO,LS,Lesotho,0,,,not_fetched
+LBR,LR,Liberia,0,,,not_fetched
+LBY,LY,Libya,0,,,not_fetched
+LIE,LI,Liechtenstein,0,,,not_fetched
+LTU,LT,Lithuania,0,,,not_fetched
+LUX,LU,Luxembourg,0,,,not_fetched
+MAC,MO,Macao,0,,,not_fetched
+MDG,MG,Madagascar,0,,,not_fetched
+MWI,MW,Malawi,0,,,not_fetched
+MYS,MY,Malaysia,0,,,not_fetched
+MDV,MV,Maldives,0,,,not_fetched
+MLI,ML,Mali,0,,,not_fetched
+MLT,MT,Malta,0,,,not_fetched
+MHL,MH,Marshall Islands,0,,,not_fetched
+MTQ,MQ,Martinique,0,,,not_fetched
+MRT,MR,Mauritania,0,,,not_fetched
+MUS,MU,Mauritius,0,,,not_fetched
+MYT,YT,Mayotte,0,,,not_fetched
+MEX,MX,Mexico,0,,,not_fetched
+FSM,FM,"Micronesia, Federated States of",0,,,not_fetched
+MDA,MD,"Moldova, Republic of",0,,,not_fetched
+MCO,MC,Monaco,0,,,not_fetched
+MNG,MN,Mongolia,0,,,not_fetched
+MNE,ME,Montenegro,0,,,not_fetched
+MSR,MS,Montserrat,0,,,not_fetched
+MAR,MA,Morocco,0,,,not_fetched
+MOZ,MZ,Mozambique,0,,,not_fetched
+MMR,MM,Myanmar,0,,,not_fetched
+NAM,NA,Namibia,0,,,not_fetched
+NRU,NR,Nauru,0,,,not_fetched
+NPL,NP,Nepal,0,,,not_fetched
+NLD,NL,Netherlands,0,,,not_fetched
+NCL,NC,New Caledonia,0,,,not_fetched
+NZL,NZ,New Zealand,0,,,not_fetched
+NIC,NI,Nicaragua,0,,,not_fetched
+NER,NE,Niger,0,,,not_fetched
+NGA,NG,Nigeria,0,,,not_fetched
+NIU,NU,Niue,0,,,not_fetched
+NFK,NF,Norfolk Island,0,,,not_fetched
+MKD,MK,North Macedonia,0,,,not_fetched
+MNP,MP,Northern Mariana Islands,0,,,not_fetched
+NOR,NO,Norway,0,,,not_fetched
+OMN,OM,Oman,0,,,not_fetched
+PAK,PK,Pakistan,0,,,not_fetched
+PLW,PW,Palau,0,,,not_fetched
+PSE,PS,"Palestine, State of",0,,,not_fetched
+PAN,PA,Panama,0,,,not_fetched
+PNG,PG,Papua New Guinea,0,,,not_fetched
+PRY,PY,Paraguay,0,,,not_fetched
+PER,PE,Peru,0,,,not_fetched
+PHL,PH,Philippines,0,,,not_fetched
+PCN,PN,Pitcairn,0,,,not_fetched
+POL,PL,Poland,0,,,not_fetched
+PRT,PT,Portugal,0,,,not_fetched
+PRI,PR,Puerto Rico,0,,,not_fetched
+QAT,QA,Qatar,0,,,not_fetched
+ROU,RO,Romania,0,,,not_fetched
+RUS,RU,Russian Federation,0,,,not_fetched
+RWA,RW,Rwanda,0,,,not_fetched
+REU,RE,Réunion,0,,,not_fetched
+BLM,BL,Saint Barthélemy,0,,,not_fetched
+SHN,SH,"Saint Helena, Ascension and Tristan da Cunha",0,,,not_fetched
+KNA,KN,Saint Kitts and Nevis,0,,,not_fetched
+LCA,LC,Saint Lucia,0,,,not_fetched
+MAF,MF,Saint Martin (French part),0,,,not_fetched
+SPM,PM,Saint Pierre and Miquelon,0,,,not_fetched
+VCT,VC,Saint Vincent and the Grenadines,0,,,not_fetched
+WSM,WS,Samoa,0,,,not_fetched
+SMR,SM,San Marino,0,,,not_fetched
+STP,ST,Sao Tome and Principe,0,,,not_fetched
+SAU,SA,Saudi Arabia,0,,,not_fetched
+SEN,SN,Senegal,0,,,not_fetched
+SRB,RS,Serbia,0,,,not_fetched
+SYC,SC,Seychelles,0,,,not_fetched
+SLE,SL,Sierra Leone,0,,,not_fetched
+SGP,SG,Singapore,0,,,not_fetched
+SXM,SX,Sint Maarten (Dutch part),0,,,not_fetched
+SVK,SK,Slovakia,0,,,not_fetched
+SVN,SI,Slovenia,0,,,not_fetched
+SLB,SB,Solomon Islands,0,,,not_fetched
+SOM,SO,Somalia,0,,,not_fetched
+ZAF,ZA,South Africa,0,,,not_fetched
+SGS,GS,South Georgia and the South Sandwich Islands,0,,,not_fetched
+SSD,SS,South Sudan,0,,,not_fetched
+ESP,ES,Spain,0,,,not_fetched
+LKA,LK,Sri Lanka,0,,,not_fetched
+SDN,SD,Sudan,0,,,not_fetched
+SUR,SR,Suriname,0,,,not_fetched
+SJM,SJ,Svalbard and Jan Mayen,0,,,not_fetched
+SWE,SE,Sweden,0,,,not_fetched
+CHE,CH,Switzerland,0,,,not_fetched
+SYR,SY,Syrian Arab Republic,0,,,not_fetched
+TWN,TW,"Taiwan, Province of China",0,,,not_fetched
+TJK,TJ,Tajikistan,0,,,not_fetched
+TZA,TZ,"Tanzania, United Republic of",0,,,not_fetched
+THA,TH,Thailand,0,,,not_fetched
+TLS,TL,Timor-Leste,0,,,not_fetched
+TGO,TG,Togo,0,,,not_fetched
+TKL,TK,Tokelau,0,,,not_fetched
+TON,TO,Tonga,0,,,not_fetched
+TTO,TT,Trinidad and Tobago,0,,,not_fetched
+TUN,TN,Tunisia,0,,,not_fetched
+TKM,TM,Turkmenistan,0,,,not_fetched
+TCA,TC,Turks and Caicos Islands,0,,,not_fetched
+TUV,TV,Tuvalu,0,,,not_fetched
+TUR,TR,Türkiye,0,,,not_fetched
+UGA,UG,Uganda,0,,,not_fetched
+UKR,UA,Ukraine,0,,,not_fetched
+ARE,AE,United Arab Emirates,0,,,not_fetched
+GBR,GB,United Kingdom,0,,,not_fetched
+USA,US,United States,0,,,not_fetched
+UMI,UM,United States Minor Outlying Islands,0,,,not_fetched
+URY,UY,Uruguay,0,,,not_fetched
+UZB,UZ,Uzbekistan,0,,,not_fetched
+VUT,VU,Vanuatu,0,,,not_fetched
+VEN,VE,"Venezuela, Bolivarian Republic of",0,,,not_fetched
+VNM,VN,Viet Nam,0,,,not_fetched
+VGB,VG,"Virgin Islands, British",0,,,not_fetched
+VIR,VI,"Virgin Islands, U.S.",0,,,not_fetched
+WLF,WF,Wallis and Futuna,0,,,not_fetched
+ESH,EH,Western Sahara,0,,,not_fetched
+YEM,YE,Yemen,0,,,not_fetched
+ZMB,ZM,Zambia,0,,,not_fetched
+ZWE,ZW,Zimbabwe,0,,,not_fetched
+ALA,AX,Åland Islands,0,,,not_fetched

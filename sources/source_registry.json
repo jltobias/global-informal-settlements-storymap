@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "sources": [
+    {
+      "id": "world_bank_wdi_slum_share",
+      "provider": "World Bank / UN-Habitat",
+      "title": "Population living in slums (% of urban population)",
+      "scope": "global country-level context",
+      "geometry": "none",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/EN.POP.SLUM.UR.ZS?format=json&mrnev=1&per_page=20000",
+      "catalog_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/EN.POP.SLUM.UR.ZS",
+      "license": "CC BY 4.0 (per WDI metadata)",
+      "automated": true,
+      "notes": "Country-level indicator only; never use as settlement geometry."
+    },
+    {
+      "id": "jiang_2026_pis_10m",
+      "provider": "Jiang et al. / Zenodo",
+      "title": "Mapping informal settlements in the Global South at 10-meter resolution",
+      "scope": "Global South; circa 2020 baseline",
+      "geometry": "10 m binary GeoTIFF; polygonizable",
+      "url": "https://zenodo.org/records/21459094",
+      "download_url": "https://zenodo.org/records/21459094/files/PIS.zip?download=1",
+      "doi": "10.5281/zenodo.21459094",
+      "license": "Verify the license shown in the Zenodo Rights metadata before redistribution",
+      "automated": false,
+      "notes": "Permanent informal settlements (PIS), pixel value 1. Model-derived classification; convert connected pixels to polygons locally and preserve model/provenance fields. Do not infer named settlement identity from raster patches."
+    },
+    {
+      "id": "li_2025_slum_population_microestimates",
+      "provider": "Li et al. / Zenodo",
+      "title": "Geospatial micro-estimates of slum populations in 129 Global South countries",
+      "scope": "129 Global South countries; 2018",
+      "geometry": "~3.63 arc-minute raster grid",
+      "url": "https://zenodo.org/records/13779003",
+      "doi": "10.5281/zenodo.13779003",
+      "license": "Verify the license shown in the Zenodo Rights metadata before redistribution",
+      "automated": false,
+      "notes": "Population/slum-share context at neighborhood-scale grid resolution. Not a settlement-boundary source."
+    },
+    {
+      "id": "world_bank_eo4sd_dhaka_2017",
+      "provider": "World Bank / ESA EO4SD-Urban",
+      "title": "Dhaka informal settlements 2017",
+      "scope": "Dhaka, Bangladesh",
+      "geometry": "polygon",
+      "url": "https://geowb.worldbank.org/hosting/rest/services/Hosted/tmpgyd9e7r4/FeatureServer",
+      "download_url": "https://datacatalogfiles.worldbank.org/ddh-published/0041703/1/DR0052090/eo4sd_dhaka_informal_2017.zip",
+      "catalog_url": "https://datacatalog.worldbank.org/search/dataset/0041703/dhaka-bangladesh-informal-settlements-esa-eo4sd-urban",
+      "license": "CC BY 4.0",
+      "automated": false,
+      "notes": "Probable informal settlements; source catalog describes 2017 VHR interpretation."
+    },
+    {
+      "id": "world_bank_eo4sd_karachi_2017",
+      "provider": "World Bank / ESA EO4SD-Urban",
+      "title": "Karachi informal settlements 2017",
+      "scope": "Karachi, Pakistan",
+      "geometry": "polygon",
+      "url": "https://geowb.worldbank.org/hosting/rest/services/Hosted/updated_584036/FeatureServer",
+      "download_url": "https://datacatalogfiles.worldbank.org/ddh-published/0039832/1/DR0049551/eo4sd_karachi_informal_2017.zip",
+      "catalog_url": "https://datacatalog.worldbank.org/search/dataset/0039832/karachi-pakistan-informal-settlements-esa-eo4sd-urban",
+      "license": "CC BY 4.0",
+      "automated": false,
+      "notes": "Probable informal settlements; source catalog describes 2017 VHR interpretation."
+    },
+    {
+      "id": "ideamaps",
+      "provider": "IDEAMAPS Network",
+      "title": "Integrated Deprived Area Mapping System outputs",
+      "scope": "selected cities; growing network",
+      "geometry": "~100m grid / mapped outputs",
+      "url": "https://www.ideamapsnetwork.org/",
+      "catalog_url": "https://www.ideamapsnetwork.org/post/ideamaps-data-release",
+      "license": "Check dataset-specific terms",
+      "automated": false,
+      "notes": "Citywide deprivation mapping; not a globally complete settlement polygon inventory."
+    },
+    {
+      "id": "un_habitat_context",
+      "provider": "UN-Habitat",
+      "title": "Urban data and SDG 11 context",
+      "scope": "global",
+      "geometry": "varies / statistical context",
+      "url": "https://unhabitat.org/knowledge/data-and-analytics",
+      "license": "Check product-specific terms",
+      "automated": false,
+      "notes": "Use for definitions, monitoring context, and country/city indicators."
+    },
+    {
+      "id": "hdx_discovery",
+      "provider": "Humanitarian Data Exchange",
+      "title": "Informal settlement / slum datasets",
+      "scope": "varies by crisis/country",
+      "geometry": "varies",
+      "url": "https://data.humdata.org/dataset/?q=informal%20settlements",
+      "license": "Dataset-specific",
+      "automated": false,
+      "notes": "Discovery source only. Validate definition, license, date and spatial quality for each dataset."
+    }
+  ]
+}

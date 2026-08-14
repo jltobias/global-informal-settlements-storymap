@@ -1,0 +1,10 @@
+{
+  "LiteBuildConfig": {
+    "contents": [
+      "content"
+    ]
+  },
+  "JupyterLiteApp": {
+    "appName": "Global Informal Settlements Storymap"
+  }
+}

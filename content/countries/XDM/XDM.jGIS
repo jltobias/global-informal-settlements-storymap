@@ -1,0 +1,195 @@
+{
+  "layerTree": [
+    "c414fab8-9027-489d-bdc9-544849bc62f8",
+    "364409af-4a79-4888-8235-9c478bf4a9eb",
+    "551a711b-39cf-4fc4-8a0d-b588e26df077",
+    "24e9c1c9-bc34-4393-86cd-67c096d9ce88",
+    "017fb131-5fce-4a3a-afa7-47206f4b1e5e",
+    "5280b838-4871-4588-844c-5d81bfc4b571"
+  ],
+  "layers": {
+    "c414fab8-9027-489d-bdc9-544849bc62f8": {
+      "name": "OpenStreetMap",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "399ea9fd-2200-42ef-9dc1-1e63eec8b156"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    },
+    "364409af-4a79-4888-8235-9c478bf4a9eb": {
+      "name": "Settlement boundaries",
+      "parameters": {
+        "color": {
+          "fill-color": "#d95f0e",
+          "stroke-color": "#7f2704",
+          "stroke-width": 1.25,
+          "circle-fill-color": "#d95f0e",
+          "circle-radius": 4.0,
+          "circle-stroke-color": "#7f2704",
+          "circle-stroke-width": 1.0
+        },
+        "opacity": 1.0,
+        "source": "5b719ddc-ccca-411f-94a8-141a6ed9ef3b",
+        "symbologyState": {}
+      },
+      "type": "VectorLayer",
+      "visible": true
+    },
+    "551a711b-39cf-4fc4-8a0d-b588e26df077": {
+      "name": "Bounding boxes",
+      "parameters": {
+        "color": {
+          "fill-color": "#00000000",
+          "stroke-color": "#2b8cbe",
+          "stroke-width": 1.0,
+          "circle-fill-color": "#2b8cbe",
+          "circle-radius": 3.0
+        },
+        "opacity": 1.0,
+        "source": "c54865e7-7dee-4a68-975e-4888aecd468a",
+        "symbologyState": {}
+      },
+      "type": "VectorLayer",
+      "visible": true
+    },
+    "24e9c1c9-bc34-4393-86cd-67c096d9ce88": {
+      "name": "Representative coordinates",
+      "parameters": {
+        "color": {
+          "fill-color": "#31a354",
+          "stroke-color": "#006d2c",
+          "stroke-width": 1.0,
+          "circle-fill-color": "#31a354",
+          "circle-radius": 5.0,
+          "circle-stroke-color": "#006d2c",
+          "circle-stroke-width": 1.0
+        },
+        "opacity": 1.0,
+        "source": "10ef933c-0f1c-4c1d-9dd2-6a73e65f88cb",
+        "symbologyState": {}
+      },
+      "type": "VectorLayer",
+      "visible": true
+    },
+    "017fb131-5fce-4a3a-afa7-47206f4b1e5e": {
+      "name": "Harbor Edge (synthetic)",
+      "parameters": {
+        "content": {
+          "contentMode": "map",
+          "image": "",
+          "markdown": "**Classification:** synthetic informal-settlement-like demo geometry  \n**Representative coordinate:** -1.290000, 36.820000  \n**BBox (WGS84):** `[36.8, -1.31, 36.84, -1.27]`  \n**Source:** synthetic_smoke_test (2026)  \n**License:** CC0 synthetic demonstration  \n**Geometry status:** synthetic  \n\nNot a real settlement.",
+          "title": "Harbor Edge (synthetic)"
+        },
+        "extent": [
+          4096022.927066488,
+          -146375.7137478668,
+          4101544.3738090675,
+          -140852.86708810722
+        ],
+        "layerOverride": [],
+        "transition": {
+          "time": 1.5,
+          "type": "smooth"
+        },
+        "zoom": 13.0
+      },
+      "type": "StorySegmentLayer",
+      "visible": true
+    },
+    "5280b838-4871-4588-844c-5d81bfc4b571": {
+      "name": "Riverbend (synthetic)",
+      "parameters": {
+        "content": {
+          "contentMode": "map",
+          "image": "",
+          "markdown": "**Classification:** synthetic informal-settlement-like demo geometry  \n**Representative coordinate:** -1.250000, 36.890000  \n**BBox (WGS84):** `[36.87, -1.27, 36.91, -1.23]`  \n**Source:** synthetic_smoke_test (2026)  \n**License:** CC0 synthetic demonstration  \n**Geometry status:** synthetic  \n\nNot a real settlement.",
+          "title": "Riverbend (synthetic)"
+        },
+        "extent": [
+          4103815.2914209324,
+          -141921.79678197167,
+          4109336.738163511,
+          -136399.03559921446
+        ],
+        "layerOverride": [],
+        "transition": {
+          "time": 1.5,
+          "type": "smooth"
+        },
+        "zoom": 13.0
+      },
+      "type": "StorySegmentLayer",
+      "visible": true
+    }
+  },
+  "metadata": {
+    "generatedBy": "scripts/generate_jgis.py",
+    "countryISO3": "XDM"
+  },
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      4094108.2318251105,
+      -147622.82319378614,
+      4111251.433404888,
+      -135151.974792484
+    ],
+    "latitude": -1.27,
+    "longitude": 36.855,
+    "pitch": 0.0,
+    "projection": "EPSG:3857",
+    "zoom": 9.0
+  },
+  "schemaVersion": "0.6.0",
+  "sources": {
+    "399ea9fd-2200-42ef-9dc1-1e63eec8b156": {
+      "name": "OpenStreetMap.Mapnik",
+      "parameters": {
+        "attribution": "© OpenStreetMap contributors",
+        "interpolate": false,
+        "maxZoom": 19.0,
+        "minZoom": 0.0,
+        "provider": "OpenStreetMap",
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "urlParameters": {}
+      },
+      "type": "RasterSource"
+    },
+    "5b719ddc-ccca-411f-94a8-141a6ed9ef3b": {
+      "name": "Settlement boundaries",
+      "parameters": {
+        "path": "settlements.geojson"
+      },
+      "type": "GeoJSONSource"
+    },
+    "c54865e7-7dee-4a68-975e-4888aecd468a": {
+      "name": "Bounding boxes",
+      "parameters": {
+        "path": "settlement_bboxes.geojson"
+      },
+      "type": "GeoJSONSource"
+    },
+    "10ef933c-0f1c-4c1d-9dd2-6a73e65f88cb": {
+      "name": "Representative coordinates",
+      "parameters": {
+        "path": "settlement_points.geojson"
+      },
+      "type": "GeoJSONSource"
+    }
+  },
+  "stories": {
+    "2f08e9c4-4b25-431d-a18c-d8b60b76864c": {
+      "presentationBgColor": "#171B2C",
+      "presentationTextColor": "#F5F5F5",
+      "showGradient": true,
+      "storySegments": [
+        "017fb131-5fce-4a3a-afa7-47206f4b1e5e",
+        "5280b838-4871-4588-844c-5d81bfc4b571"
+      ],
+      "storyType": "guided",
+      "title": "Demonstration Country (synthetic): Informal Settlement Evidence"
+    }
+  },
+  "viewState": {}
+}

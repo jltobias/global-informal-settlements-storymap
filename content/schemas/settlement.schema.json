@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Canonical informal settlement GeoJSON feature properties",
+  "type": "object",
+  "required": [
+    "settlement_id",
+    "country_iso3",
+    "country_name",
+    "settlement_name",
+    "source_id",
+    "source_url",
+    "source_year",
+    "license",
+    "classification_label",
+    "geometry_status",
+    "representative_lon",
+    "representative_lat",
+    "bbox_wgs84"
+  ],
+  "properties": {
+    "settlement_id": {
+      "type": "string"
+    },
+    "country_iso3": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "country_name": {
+      "type": "string"
+    },
+    "settlement_name": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "source_year": {
+      "type": [
+        "integer",
+        "string",
+        "null"
+      ]
+    },
+    "license": {
+      "type": "string"
+    },
+    "classification_label": {
+      "type": "string"
+    },
+    "classification_definition": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "string",
+        "null"
+      ]
+    },
+    "geometry_status": {
+      "enum": [
+        "boundary",
+        "point_only",
+        "derived",
+        "synthetic"
+      ]
+    },
+    "representative_lon": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180
+    },
+    "representative_lat": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90
+    },
+    "representative_method": {
+      "type": "string"
+    },
+    "bbox_wgs84": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "number"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

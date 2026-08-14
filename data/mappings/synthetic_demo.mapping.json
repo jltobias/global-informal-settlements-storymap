@@ -1,0 +1,14 @@
+{
+  "country_iso3": "country_iso3",
+  "country_name": "country_name",
+  "settlement_name": "settlement_name",
+  "source_id": "source_id",
+  "source_url": "source_url",
+  "source_year": "source_year",
+  "license": "license",
+  "classification_label": "classification_label",
+  "classification_definition": "classification_definition",
+  "confidence": "confidence",
+  "geometry_status": "geometry_status",
+  "notes": "notes"
+}

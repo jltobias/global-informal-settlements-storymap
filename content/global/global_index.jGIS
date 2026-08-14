@@ -1,0 +1,90 @@
+{
+  "layerTree": [
+    "a5e9ab71-7597-468d-9ae3-efe88e34d0b5",
+    "4d50b865-4393-4ba2-949a-a5197d9056f8"
+  ],
+  "layers": {
+    "a5e9ab71-7597-468d-9ae3-efe88e34d0b5": {
+      "name": "Natural Earth countries",
+      "parameters": {
+        "color": {
+          "fill-color": "#f0f0f0",
+          "stroke-color": "#636363",
+          "stroke-width": 0.75,
+          "circle-fill-color": "#636363",
+          "circle-radius": 3.0
+        },
+        "opacity": 1.0,
+        "source": "d700e0e2-4a3a-4c48-9cc3-2ec2559818e4",
+        "symbologyState": {}
+      },
+      "type": "VectorLayer",
+      "visible": true
+    },
+    "4d50b865-4393-4ba2-949a-a5197d9056f8": {
+      "name": "Global overview",
+      "parameters": {
+        "content": {
+          "contentMode": "map",
+          "image": "",
+          "markdown": "This global index is an entry point to country storymaps. Settlement-level completeness depends on the registered sources; country-level SDG 11.1.1 values are context only.",
+          "title": "Global Informal Settlements Storymap"
+        },
+        "extent": [
+          -20037508,
+          -15538711,
+          20037508,
+          15538711
+        ],
+        "layerOverride": [],
+        "transition": {
+          "time": 1.0,
+          "type": "smooth"
+        },
+        "zoom": 1.5
+      },
+      "type": "StorySegmentLayer",
+      "visible": true
+    }
+  },
+  "metadata": {
+    "generatedBy": "scripts/generate_jgis.py"
+  },
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      -20037508,
+      -15538711,
+      20037508,
+      15538711
+    ],
+    "latitude": 10.0,
+    "longitude": 0.0,
+    "pitch": 0.0,
+    "projection": "EPSG:3857",
+    "zoom": 1.5
+  },
+  "schemaVersion": "0.6.0",
+  "sources": {
+    "d700e0e2-4a3a-4c48-9cc3-2ec2559818e4": {
+      "name": "Natural Earth countries",
+      "parameters": {
+        "path": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson"
+      },
+      "type": "GeoJSONSource"
+    }
+  },
+  "stories": {
+    "de5b21b3-a746-49ee-8576-fb809d8218f7": {
+      "presentationBgColor": "#171B2C",
+      "presentationTextColor": "#F5F5F5",
+      "showGradient": true,
+      "storySegments": [
+        "4d50b865-4393-4ba2-949a-a5197d9056f8"
+      ],
+      "storyType": "guided",
+      "title": "Global Informal Settlements Storymap"
+    }
+  },
+  "viewState": {}
+}

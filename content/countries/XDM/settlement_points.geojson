@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "xdm-harbor-edge-point",
+      "properties": {
+        "settlement_id": "xdm-harbor-edge",
+        "country_iso3": "XDM",
+        "country_name": "Demonstration Country (synthetic)",
+        "settlement_name": "Harbor Edge (synthetic)",
+        "source_id": "synthetic_smoke_test",
+        "source_url": "local://synthetic-demo",
+        "source_year": 2026,
+        "license": "CC0 synthetic demonstration",
+        "classification_label": "synthetic informal-settlement-like demo geometry",
+        "classification_definition": "Fictional geometry supplied only to test the pipeline.",
+        "confidence": null,
+        "geometry_status": "synthetic",
+        "representative_lon": 36.82,
+        "representative_lat": -1.29,
+        "representative_method": "bbox_center",
+        "bbox_wgs84": [
+          36.8,
+          -1.31,
+          36.84,
+          -1.27
+        ],
+        "notes": "Not a real settlement."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.82,
+          -1.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "xdm-riverbend-point",
+      "properties": {
+        "settlement_id": "xdm-riverbend",
+        "country_iso3": "XDM",
+        "country_name": "Demonstration Country (synthetic)",
+        "settlement_name": "Riverbend (synthetic)",
+        "source_id": "synthetic_smoke_test",
+        "source_url": "local://synthetic-demo",
+        "source_year": 2026,
+        "license": "CC0 synthetic demonstration",
+        "classification_label": "synthetic informal-settlement-like demo geometry",
+        "classification_definition": "Fictional geometry supplied only to test the pipeline.",
+        "confidence": null,
+        "geometry_status": "synthetic",
+        "representative_lon": 36.89,
+        "representative_lat": -1.25,
+        "representative_method": "bbox_center",
+        "bbox_wgs84": [
+          36.87,
+          -1.27,
+          36.91,
+          -1.23
+        ],
+        "notes": "Not a real settlement."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.89,
+          -1.25
+        ]
+      }
+    }
+  ]
+}
